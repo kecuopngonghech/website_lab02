@@ -1,0 +1,104 @@
+header, section, footer, aside, nav,
+article, figure, figcaption {
+    display: block;}
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("../images/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;}
+
+header {
+    height: 140px;
+    background-image: url(../images/header.jpg);
+}
+
+.nav{
+    background-color:darkgray;
+}
+
+.main{
+    background-color: white;
+    width: 100%;
+}
+
+.section{
+    float: left;
+    width: 100%;
+}
+
+.container_main{
+    display: flex;
+}
+
+a{
+    margin-right: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.item{
+    display: flex;
+}
+
+figure{
+    margin: 10px 10px 10px 10px;
+}
+
+.content{
+    float: left;
+    width: 66.67%;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.content_BokChoi{
+
+    float: left;
+}
+
+.sidebar {
+    float: right;
+    width: 33.33%;
+}
+
+h2{
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+h3{
+    font-size: 19px;
+    color: red;
+    margin: auto;
+    margin-top: 7px;
+    font-weight: normal;
+}
+
+p{
+    font-family: "Times New Roman";
+    text-align: left;
+}
+
+h4{
+    font-size: 23px;
+    color: red;
+}
+
+.sidebar_Up{
+    color: red;
+    margin: auto;
+}
+
+.footer{
+    background-color:darkgray;
+}
