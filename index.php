@@ -1,1 +1,1 @@
-<?php include("website_lab02");
+<?php include("website_lab02.html");
